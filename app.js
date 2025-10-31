@@ -5,7 +5,7 @@
 
 const GEMINI_ENDPOINT =
   "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent";
-const API_KEY = "AIzaSyAGWuI5mYN5zVnZCUX5DCyRAHWaFYMqOQc"; // ⚠️ Replace with valid key
+const API_KEY = "AIzaSyAGWuI5mYN5zVnZCUX5DCyRAHWaFYMqOQc"; 
 
 /* ---------- ROLE & STYLE PROMPT ---------- */
 const SYSTEM_PROMPT = `
@@ -6374,3 +6374,4 @@ document.addEventListener("click", () => {
     emojiMenu = null;
   }
 });
+
